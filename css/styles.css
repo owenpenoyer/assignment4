@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.cis260specialgreen {
+    color: #055f0f;
+}
+
+#cis-special-parent a {
+    color: #efef15;
+
+}
+
+#content {
+    color: goldenrod
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+p {
+    font-family: fantasy
+}
+
+li {
+    font-family: fantasy
+}
+
+h1 {
+
+    font-family: fantasy;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #828282;
+}
+
+a {
+
+    font-family: fantasy
+}
+
+header nav ul li {
+    color: #055f0f
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-image: linear-gradient(#ffffff, #828282)
+}
