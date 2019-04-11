@@ -58,5 +58,5 @@ header {
 }
 
 body {
-    background-image: linear-gradient(#ffffff, #828282)
+    background-image: linear(#ffffff, #828282)
 }
