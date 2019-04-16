@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-git 
+
 <head>
     <meta charset="utf-8">
     <title>Contact Us</title>
@@ -21,25 +21,56 @@ git
     </header>
 
     <main>
-       <form>
+        <form>
             <p>Please fill out this information</p>
-            <label for="firstname">First Name:</label>
-            <input type="text" name="firstname" id="firstname">
-            <label for="lastname">Last Name:</label>
-            <input type="text" name="lastname" id="lastname">
-           <label for="email">Email:</label>
-            <input type="text" name="email" id="email">
-        <label for="Comments">Comments:</label>
-            <input type="text" name="comments" id="comments">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="What Are You Looking For">What Are You Looking For?</label>
+                <select name="What Are You Looking For" id="What Are You Looking For" multiple="true">
+                <option value="Renovation">Renovation</option>
+                <option value="New Home Construction">New Home Construction</option>
+                <option value="Home Addition">Home Addition</option>
+                <option value="Custom Project">Custom Project</option>
+                <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label for="Comments">Comments:</label>
+                <input type="text" name="comments" id="comments">
+            </p>
+            
+            <div class="radio-buttons">
+            <label for="Would you like to schedule an appointment">Would you like to schedule an appointment?</label>
+            <input type="radio" name="Appointment" value="Yes" checked>Yes
+            <input type="radio" name="Appointment" value="No">No    
+            
+            </div>
         </form>
-            
-            
-        
+
+
+
     </main>
 
 
 
     <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <a href="https://www.instagram.com/penoyerbuilders/" target="_blank">Instagram</a>
         <p>&copy; 2019 Penoyer Builders Inc.</p>
     </footer>
